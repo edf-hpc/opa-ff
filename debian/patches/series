@@ -1,0 +1,4 @@
+target_os_version
+tcl
+change_hardcoded_paths
+compiler_flags

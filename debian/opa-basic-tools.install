@@ -1,0 +1,17 @@
+built/bin/opafabricinfo	 	usr/sbin/
+built/bin/opacapture        usr/sbin/
+built/bin/opagetvf			usr/sbin/
+built/bin/opagetvf_env 		usr/sbin/
+built/bin/opahfirev			usr/sbin/
+built/bin/opainfo 			usr/sbin/
+built/bin/opapacketcapture  usr/sbin/
+built/bin/opaportinfo       usr/sbin/
+built/bin/oparesolvehfiport usr/sbin/
+built/bin/opasaquery 		usr/sbin/
+built/bin/opasmaquery  		usr/sbin/
+built/bin/opainfo  			usr/sbin/
+built/bin/opatmmtool  		usr/sbin/
+
+built/bin/opaipcalc         usr/lib/opa-ff/tools/
+built/bin/setup_self_ssh    usr/lib/opa-ff/tools/
+built/bin/usemem            usr/lib/opa-ff/tools/

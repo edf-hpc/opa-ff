@@ -1,0 +1,13 @@
+Index: opa-ff/Makerules.project
+===================================================================
+--- opa-ff.orig/Makerules.project
++++ opa-ff/Makerules.project
+@@ -172,7 +172,7 @@ $(error BUILD_TARGET_OS of DARWIN not su
+ endif # DARWIN
+ ifeq "$(BUILD_TARGET_OS)" "LINUX"
+ ifndef BUILD_TARGET_OS_VERSION
+-$(error BUILD_TARGET_OS_VERSION not defined)
++BUILD_TARGET_OS_VERSION=$(shell uname -r)
+ endif
+ ifndef BUILD_TARGET_OS_VENDOR_VERSION
+ $(error BUILD_TARGET_OS_VENDOR_VERSION not defined)

@@ -1,0 +1,13 @@
+Index: opa-ff/TestTools/qlgc_fork.c
+===================================================================
+--- opa-ff.orig/TestTools/qlgc_fork.c
++++ opa-ff/TestTools/qlgc_fork.c
+@@ -32,7 +32,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE
+  * qlgc_fork.c -- TCL extension to workaround problems in exp_fork/exp_wait
+  * when TCL_THREADS enabled in build
+  */
+-#include <tcl.h>
++#include <tcl/tcl.h>
+ #include <sys/types.h>
+ #include <unistd.h>
+ #include <sys/wait.h>

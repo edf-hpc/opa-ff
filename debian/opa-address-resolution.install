@@ -1,0 +1,15 @@
+built/opasadb/opa_osd_dump              usr/bin
+built/opasadb/opa_osd_exercise          usr/bin
+built/opasadb/opa_osd_perf              usr/bin
+built/opasadb/opa_osd_query             usr/bin
+
+built/config/dsap.conf 				etc/opa/
+
+built/bin/X86_64/*/lib/release/libdsap.so.1.0.0 	usr/lib/x86_64-linux-gnu
+built/bin/X86_64/*/lib/release/libopasadb.so.1.0.0 	usr/lib/x86_64-linux-gnu
+
+built/opasadb/opasadb_path_private.h 	usr/include/infiniband/
+built/opasadb/opasadb_route2.h 			usr/include/infiniband/
+built/opasadb/opasadb_route.h   		usr/include/infiniband/
+built/opasadb/opasadb_path.h  			usr/include/infiniband/
+built/opasadb/opasadb_debug.h 			usr/include/infiniband/

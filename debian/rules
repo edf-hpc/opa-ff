@@ -1,0 +1,20 @@
+#!/usr/bin/make -f
+#export DH_VERBOSE = 1
+
+
+include /usr/share/dpkg/pkg-info.mk
+
+VERSION=$(shell uname -r)
+BUILTDIR=IntelOPA-Tools-FF.$(VERSION).ES-x86_64.$(DEB_VERSION_UPSTREAM)
+
+%:
+	dh $@
+
+override_dh_auto_build:
+	./ff_build.sh .
+
+override_dh_auto_clean:
+override_dh_auto_test:
+override_dh_auto_install:
+	mkdir built
+	mv stage.OPENIB_FF.release/$(VERSION)/X86_64/$(BUILTDIR)/* built

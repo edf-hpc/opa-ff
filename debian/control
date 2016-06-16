@@ -1,0 +1,38 @@
+Source: opa-ff
+Section: net
+Priority: optional
+Maintainer: Ana Guerrero Lopez <ana-externe.guerrero@edf.fr>
+Build-Depends: debhelper (>=9),
+               ibacm,
+               libexpat1-dev,
+               libibmad-dev,
+               libibumad-dev,
+               libibverbs-dev,
+               libncurses5-dev,
+               libssl-dev,
+               tcl8.4-dev, tcl-dev,
+               zlib1g-dev
+Standards-Version: 3.9.8
+Homepage: https://github.com/01org/opa-ff
+
+Package: opa-basic-tools
+Architecture: any
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: Intel Omni-Path fast fabric management basic tools
+ This package contains all the basic tools for fabric managment necessary
+ on all compute nodes.
+
+Package: opa-fastfabric
+Architecture: any
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: Intel Omni-Path fast fabric management tools
+ This package contains the tools for managing fabric on a managment node.
+
+Package: opa-address-resolution
+Architecture: any
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: Intel Omni-Path Address Resolution manager
+ This package contains the ibacm distributed SA provider (dsap) for name and
+ address resolution on OPA platform.
+ It also contains the library and tools to access the shared memory database
+ exported by dsap.

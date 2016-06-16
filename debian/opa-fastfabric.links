@@ -1,0 +1,2 @@
+/usr/lib/opa-ff/tools//config_check 		usr/sbin/opafmconfigcheck
+/usr/lib/opa-ff/tools//config_diff  		usr/sbin/opafmconfigdiff
