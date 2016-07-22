@@ -5,7 +5,7 @@
 include /usr/share/dpkg/pkg-info.mk
 
 VERSION=$(shell uname -r)
-BUILTDIR=IntelOPA-Tools-FF.$(VERSION).ES-x86_64.$(DEB_VERSION_UPSTREAM)
+BUILTDIR=IntelOPA-Tools-FF.$(VERSION).ES8-x86_64.$(DEB_VERSION_UPSTREAM)
 
 %:
 	dh $@

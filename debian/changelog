@@ -1,5 +1,5 @@
-opa-ff (10.1.0.0.126-1) UNRELEASED; urgency=medium
+opa-ff (10.1.0.0.126-1) calibre9; urgency=medium
 
-  * Initial Release.
+  * Initial Release for Calibre9 (Debian Jessie).
 
- -- Ana Guerrero Lopez <ana-externe.guerrero@edf.fr>  Wed, 15 Jun 2016 13:26:18 +0200
+ -- Ana Guerrero Lopez <ana-externe.guerrero@edf.fr>  Fri, 15 Jul 2016 19:25:55 +0200

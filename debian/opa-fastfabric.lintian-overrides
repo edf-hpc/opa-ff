@@ -1,0 +1,3 @@
+opa-fastfabric: possible-gpl-code-linked-with-openssl
+opa-fastfabric: tclsh-script-but-no-tclsh-dep usr/lib/opa-ff/tools/comm12
+opa-fastfabric: missing-dep-for-interpreter expect => expect (usr/lib/opa-ff/tools/front)

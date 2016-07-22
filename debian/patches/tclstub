@@ -1,0 +1,18 @@
+Build against tcl 8.6 in Debian Jessie
+
+Author: Ana Guerrero Lopez <ana@ekaia.org>
+Date: 2016-07-21
+
+Index: opa-ff/TestTools/Makefile
+===================================================================
+--- opa-ff.orig/TestTools/Makefile
++++ opa-ff/TestTools/Makefile
+@@ -119,7 +119,7 @@ INCLUDE_SUBDIR		=
+ #				(in addition to LOCALDEPLIBS)
+ #LOCAL_LIB_DIRS	= User library directories for libpaths [Empty]
+ CLOCAL=-DUSE_TCL_STUBS $(CPIC)
+-LOCALLIBS=$(shell if [ -e /usr/lib64/libtclstub.a -o -e /usr/lib/libtclstub.a ]; then echo tclstub; elif [ -e /usr/lib64/libtclstub8.6.a -o -e /usr/lib/libtclstub8.6.a ]; then echo tclstub8.6; elif [ -e /usr/lib64/libtclstub8.5.a -o -e /usr/lib/libtclstub8.5.a ]; then echo tclstub8.5; else echo tclstub8.4; fi)
++LOCALLIBS=tclstub8.6
+ 
+ # Include Make Rules definitions and rules
+ include $(TL_DIR)/$(PROJ_FILE_DIR)/Makerules.project
